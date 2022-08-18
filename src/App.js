@@ -1,14 +1,18 @@
-import React from "react";
-import logo from "./3.png";
 import './App.css';
+import Dictionary from "./Dictionary";
 
 
 export default function App() {
   return (
     <div className="App">
-      <header>
-        <img src={logo} className="logo img-fluid" alt="logo" />
-      </header>
-    </div>
+      <p className="navbar">DELANEY'S DICTIONARY</p>
+      <div className="container">
+        <main><Dictionary /></main>
+      </div>
+      <footer>
+        <small>Coded by Delaney Tiger</small>
+      </footer>
+
+    </div >
   );
 }

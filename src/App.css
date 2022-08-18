@@ -1,4 +1,23 @@
-body {
+.App {
   border: 1px solid red;
   text-align: center;
+  font-family: 'Aboreto';
 }
+
+.navbar {
+  padding: 10px;
+  width: 100%;
+  background-color: #5e58c6;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: auto;
+  position: fixed;
+}
+
+.container {
+  border: 1px solid orange;
+  padding: 55px;
+}
+
+
