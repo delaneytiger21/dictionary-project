@@ -1,5 +1,13 @@
 .Dictionary {
-  border: 1px solid burlywood;
+  border: 1px solid green;
   color: #5e58c6;
   letter-spacing: 4px;
+}
+
+h1{
+  text-align: center;
+}
+
+form {
+  text-align: center;
 }
