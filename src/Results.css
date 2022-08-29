@@ -1,5 +1,8 @@
-h2{
-  color: #827EDB;
+.Results h2{
+  color: #E4B1AB;
   text-align: center;
   text-transform: capitalize;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
 }

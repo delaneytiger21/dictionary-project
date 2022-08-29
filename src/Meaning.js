@@ -5,16 +5,16 @@ import "./Meaning.css"
 export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <h6>{props.meaning.partOfSpeech}</h6>
+      <h5 className="text-capitalize">{props.meaning.partOfSpeech}</h5>
       {props.meaning.definitions.map(function (info, index) {
         return (
           <div key={index}>
-            <p>Definition: {info.definition}</p>
-            <p>Example: {info.example}</p>
-            Synonyms: <Synonyms synonyms={info.synonyms} />
+            <div className="Definition">{info.definition}</div>
+            <div className="Example">{info.example}</div>
+            <Synonyms synonyms={info.synonyms} />
           </div>
         );
       })}
-    </div>
+    </div >
   );
 }
