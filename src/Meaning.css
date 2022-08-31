@@ -1,11 +1,16 @@
 .Meaning h5{
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.5;
   font-weight: bold;
+}
+
+.Meaning .Definition {
+  font-size: 17px;
 }
 
 .Meaning .Example {
   font-style: italic;
   opacity: 0.8;
   margin: 10px 10px 10px 10px;
+  font-size: 15px;
 }

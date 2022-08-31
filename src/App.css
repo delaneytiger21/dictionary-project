@@ -1,9 +1,5 @@
 body {
   background-color:#ffffff;
-}
-
-.App {
-  border: 1px solid red;
   font-family: serif;
 }
 
@@ -12,14 +8,18 @@ body {
   width: 100%;
   background-color: #e4b1ab;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 2px;
   margin-bottom: auto;
 }
 
 .container {
-  border: 1px solid orange;
-  padding: 55px;
+  background-color: #FEEFEE;
+  border-radius: 6px;
+  color: #e4b1ab;
+  margin: 50px auto;
+  letter-spacing: 2px;
+  padding: 30px;
 }
 
 .App footer {
